@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "textrecon"
+version = "0.1.0"
+description = ""
+authors = ["Daniel <danther98@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.10.0.84"
+streamlit = "^1.41.1"
+pytesseract = "^0.3.13"
+pillow = "^11.1.0"
+black = {extras = ["d"], version = "^24.10.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
